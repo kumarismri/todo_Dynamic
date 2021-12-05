@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Josefin+Sans&display=swap');
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.list{
+    color: white;
+    font-size: 51px;
+    position: absolute;
+    top: 125px;
+    left: 300px;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.task{
+    color: white;
+    font-size: 54px;
+    margin-left: 125px;
+    margin-top: 124px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.fas1{
+    color: blue;
+    content: "\f055";
+    font-size: 50px;
+    position: relative;
+    top: -53px;
+    left: 1108px;
+}
+
+h2{
+    color: white;
+    position: relative;
+    top: -133px;
+    left: 1183px;
+    font-size: 38px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.noitems{
+    color: white;
+    left: 116px;
+    font-size: 30px;
+    position: relative;
+    top: 18px;
+    font-family: 'Barlow', sans-serif;
+}
+
+#parent1{
+
+    width: 999px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: initial;
+    margin-left: 290px;
+    margin-right: 220px;
+
+}
+
+#child1{
+     width: 200px;
+     height: 250px;
+     background-color: white;
+     border-radius: 8px;
+     color: red;
+     text-align: center;
+     padding-top: 13px; 
+}
+
+.listbox{
+    margin: 350px 0px 0px 350px;
+    width: 350px;
+    height: 200px;
+    background-color: white;
+}
+
+#add{
+
+    position: absolute;
+    top: 456px;
+    left: 636px;
+    border-radius: 21px;
+    padding: 6px 20px 7px 20px;
+    background-color: red;
+    color: white;
+
+}
+
+#close{
+
+    position: absolute;
+    top: 456px;
+    left: 736px;
+    border-radius: 21px;
+    padding: 6px 20px 7px 20px;
+    background-color: red;
+    color: white;
+
+}
+
+#frst{
+    margin-top: 14px;
+    padding: 16px 0px 16px 75px;
+    border-radius: 8px;
+    margin-bottom: 56px;
+}
+
+#bor{
+    border-bottom: 2px solid grey;
+    margin-top: 20px;
+}
+
+#box{
+    width: 380px;
+    height: 216px;
+    visibility: hidden;
+    background-color: white;
+    position: absolute;
+    border-radius: 8px;
+    color: red;
+    text-align: center;
+    left: 611px;
+    top: 345px;
+    font-family: sans-serif;
+}
+
+#txxt{
+    padding: 10px 16px 8px 20px;
+    border-radius: 5px;
+    color: red;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.add{
+    border-radius: 21px;
+    color: white;
+    background-color: red;
+    margin-right: 30px;
+    font-size: 21px;
+    padding: 2px 13px 2px 14px;
+}
+.close{
+    border-radius: 21px;
+    color: white;
+    background-color: red;
+    font-size: 21px;
+}
+
+.pls{
+    background-color: blue;
+ }
+
+.dlt{
+    background-color: red;
+    margin-top: 169px;
+    margin-right: -103px;
+}
+
+
+#box1{
+    width: 380px;
+    height: 216px;
+    visibility: hidden;
+    background-color: white;
+    position: absolute;
+    border-radius: 8px;
+    color: red;
+    text-align: center;
+    left: 611px;
+    top: 345px;
+    font-family: sans-serif;
+}
